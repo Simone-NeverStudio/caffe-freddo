@@ -74,6 +74,15 @@ h1{margin:0 0 22px;font-size:clamp(2rem,1.4rem + 3vw,2.8rem);line-height:1.15;fo
   margin-bottom: 0;
 }
 
+.prose .scene-break{
+  text-align: center;
+  margin: 2em 0;
+  color: var(--accent);
+  font-style: normal;
+  letter-spacing: .8em;
+  padding-left: .8em;
+  user-select: none;
+}
 
 /* player */
 .song{margin:44px 0 28px;padding:22px 20px 20px;background:var(--surface);border:1px solid var(--line);
