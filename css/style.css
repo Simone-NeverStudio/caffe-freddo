@@ -61,6 +61,21 @@ h1{margin:0 0 22px;font-size:clamp(2rem,1.4rem + 3vw,2.8rem);line-height:1.15;fo
 .prose.prologue p{margin-bottom:1.4em}
 .fine{font-size:1.6rem;line-height:1;text-align:center;color:var(--accent);letter-spacing:.5em;margin:1.4em 0 0}
 
+/* flashback */
+.prose .flashback{
+  font-style: italic;
+  margin: 1.6em 0;
+  padding: 0.25em 0 0.25em 1em;
+  border-left: 2px solid color-mix(in srgb, var(--accent) 55%, var(--line));
+}
+.prose .flashback p{
+  margin-bottom: 1.15em;
+}
+.prose .flashback p:last-child{
+  margin-bottom: 0;
+}
+
+
 /* player */
 .song{margin:44px 0 28px;padding:22px 20px 20px;background:var(--surface);border:1px solid var(--line);
   border-radius:20px;box-shadow:var(--shadow)}
