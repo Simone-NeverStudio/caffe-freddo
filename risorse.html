@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Risorse gratuite · Caffè Freddo</title>
+<meta name="description" content="Caffè Freddo: il PDF stampabile e la versione audiolibro, gratuiti.">
+<meta name="author" content="Simone Bigazzi">
+<meta name="theme-color" content="#12151b" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f6f1e7" media="(prefers-color-scheme: light)">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/lora.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+<meta property="og:type" content="book">
+<meta property="og:locale" content="it_IT">
+<meta property="og:site_name" content="Caffè Freddo">
+<meta property="og:title" content="Caffè Freddo — Risorse gratuite">
+<meta property="og:description" content="Il PDF stampabile e la versione audiolibro, gratuiti.">
+<meta property="og:url" content="https://simone-neverstudio.github.io/caffe-freddo/risorse.html">
+<meta property="og:image" content="https://simone-neverstudio.github.io/caffe-freddo/images/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://simone-neverstudio.github.io/caffe-freddo/risorse.html">
+<script>try{var t=localStorage.getItem('cf-theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+<style>
+.res{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:22px 20px;margin:0 0 26px;box-shadow:var(--shadow)}
+.res h2{margin:0 0 6px;font-size:1.5rem;font-weight:500;line-height:1.25}
+.res p{margin:0 0 16px;font-size:1.02rem;line-height:1.6;color:var(--muted)}
+.res .btn{margin:0}
+.video{position:relative;aspect-ratio:16/9;border-radius:14px;overflow:hidden;background:#000;margin:0 0 14px}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.res .alt{font-size:.92rem;margin:0}
+</style>
+</head>
+<body>
+<div id="progress" aria-hidden="true"></div>
+<header class="bar">
+<a class="brand" href="index.html">Caffè Freddo</a>
+<button id="theme" type="button" aria-label="Cambia tema"></button>
+</header>
+<main>
+<div class="chapter-head">
+<p class="eyebrow">Gratis</p>
+<h1>Risorse</h1>
+</div>
+
+<section class="res" aria-labelledby="r-audio">
+<h2 id="r-audio">Versione audiolibro</h2>
+<p>Il libro letto, da ascoltare con le canzoni.</p>
+<div class="video">
+<iframe src="https://www.youtube-nocookie.com/embed/iYDs9_Zvuag" title="Caffè Freddo, versione audiolibro" loading="lazy" allow="accelerometer; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+</div>
+<p class="alt">Se il video non parte, <a href="https://youtu.be/iYDs9_Zvuag">aprilo su YouTube</a>.</p>
+</section>
+
+<section class="res" aria-labelledby="r-pdf">
+<h2 id="r-pdf">PDF stampabile</h2>
+<p>Il libro completo in PDF, da scaricare o stampare.</p>
+<a class="btn primary" href="pdf/caffe-freddo.pdf" download><small>Scarica</small><span>Caffè Freddo (PDF)</span></a>
+</section>
+
+<nav class="pager" aria-label="Navigazione"><a class="btn ghost" href="index.html"><span>← Torna all’indice</span></a></nav>
+</main>
+<footer><p>© 2026 Simone Bigazzi · Caffè Freddo</p></footer>
+<script src="js/app.js" defer></script>
+</body>
+</html>
